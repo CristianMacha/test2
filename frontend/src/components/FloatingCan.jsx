@@ -64,7 +64,6 @@ const FloatingCan = ({ position = [0, 0, 0], color = '#FF6B35' }) => {
         color="white"
         anchorX="center"
         anchorY="middle"
-        font="/fonts/bold.woff"
       >
         ENERGY
       </Text>
@@ -76,7 +75,6 @@ const FloatingCan = ({ position = [0, 0, 0], color = '#FF6B35' }) => {
         color="white"
         anchorX="center"
         anchorY="middle"
-        font="/fonts/bold.woff"
       >
         DRINK
       </Text>
