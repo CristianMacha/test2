@@ -67,7 +67,7 @@ const Hero = () => {
             animate={{ opacity: 1, scale: 1, rotateY: 0 }}
             transition={{ duration: 1.2, delay: 0.3, ease: "easeOut" }}
           >
-            <img src="https://firebasestorage.googleapis.com/v0/b/dev-system2023.appspot.com/o/Adobe%20Express%20-%20file.png?alt=media&token=32086d47-0459-4342-bedc-8aeda53b7ae7" alt="Logo de la empresa">
+            <img src="https://firebasestorage.googleapis.com/v0/b/dev-system2023.appspot.com/o/Adobe%20Express%20-%20file.png?alt=media&token=32086d47-0459-4342-bedc-8aeda53b7ae7" alt="Logo de la empresa" />
           </motion.div>
         </div>
       </div>
