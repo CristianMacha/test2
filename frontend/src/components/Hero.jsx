@@ -67,24 +67,7 @@ const Hero = () => {
             animate={{ opacity: 1, scale: 1, rotateY: 0 }}
             transition={{ duration: 1.2, delay: 0.3, ease: "easeOut" }}
           >
-            <Canvas camera={{ position: [0, 0, 8], fov: 45 }}>
-              <Suspense fallback={null}>
-                <ambientLight intensity={0.6} />
-                <directionalLight position={[10, 10, 5]} intensity={1.2} />
-                <pointLight position={[-10, -10, -5]} color="#FF6B35" intensity={0.5} />
-                <pointLight position={[10, -10, -5]} color="#2E86AB" intensity={0.5} />
-                
-                <FloatingCan position={[0, 0, 0]} color="#FF6B35" />
-                
-                <Environment preset="studio" />
-                <OrbitControls 
-                  enableZoom={false} 
-                  enablePan={false}
-                  autoRotate
-                  autoRotateSpeed={0.5}
-                />
-              </Suspense>
-            </Canvas>
+            <img src="https://firebasestorage.googleapis.com/v0/b/dev-system2023.appspot.com/o/Adobe%20Express%20-%20file.png?alt=media&token=32086d47-0459-4342-bedc-8aeda53b7ae7" alt="Logo de la empresa">
           </motion.div>
         </div>
       </div>
